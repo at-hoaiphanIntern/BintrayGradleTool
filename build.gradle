@@ -1,14 +1,14 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'MyLibrary'  // Repository Name
-    bintrayName = 'my-package' // Package Name
-    // bintrayOrganization = 'hoaiphan-org'
-    publishedGroupId = 'com.hoaiphan'
-    libraryName = 'MyLibrary'
-    artifact = 'my-demo-library' // Library Name
+    bintrayRepo = 'Parallax'  // Repository Name
+    bintrayName = 'parallax-view' // Package Name
+    // bintrayOrganization = 'hoaiphan'
+    publishedGroupId = 'com.pvhoai'
+    libraryName = 'ParallaxView'
+    artifact = 'parallaxview' // Library Name
 
-    libraryDescription = 'A demo library.'
+    libraryDescription = 'A library supports ImageView moving following device sensor.'
 
     libraryVersion = '1.0.1'
 
